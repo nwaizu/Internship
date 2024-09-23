@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    table {
+      width: 100%;
+      /* border-collapse: collapse; */
+    }
+    table, th, td{
+      border: 1px solid rgb(7, 7, 7);
+    }
+    th, td {
+      /* border: 5px double #ddd; */
+      padding: 8px;
+      text-align: center;
+    }
+    th {
+      background-color: white;
+      color: black;
+    }
+    .highlight-yellow {
+      background-color: rgb(239, 239, 109);
+    }
+    .highlight-green {
+      background-color: rgb(125, 234, 125);
+      color: white;
+    }
+    .highlight-purple {
+      background-color: rgb(183, 86, 228);
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <h1>Table 2</h1>
+
+<table border="1">
+  <thead  >
+    <tr class="header-row" style="border: 3px do;">
+      <th rowspan="3" class="day-column">Day</th>
+      <th colspan="4" class="day-column">Seminar</th>
+    </tr>
+    <tr class="schedule-row">
+      <th colspan="2">Schedule</th>
+      <th rowspan="2" class="topic-cell">Topic</th>
+    </tr>
+    <tr class="schedule-row">
+      <th>Begin</th>
+      <th>End</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="2">Monday</td>
+      <td rowspan="2" class="highlight-yellow">8:00 a.m.</td>
+      <td rowspan="2" class="highlight-purple">5:00 p.m.</td>
+      <td>Introduction to XML</td>
+    </tr>
+    <tr>
+      <td>Validity: DTD and Relax NG</td>
+    </tr>
+    <tr>
+      <td rowspan="3">Tuesday</td>
+      <td class="highlight-yellow">8:00 a.m.</td>
+      <td class="highlight-yellow">11:00 a.m.</td>
+      <td rowspan="2">XPath</td>
+    </tr>
+    <tr>
+      <td class="highlight-yellow">11:00 a.m.</td>
+      <td class="highlight-green">2:00 p.m.</td>
+    </tr>
+    <tr>
+      <td class="highlight-green">2:00 p.m.</td>
+      <td class="highlight-purple">5:00 p.m.</td>
+      <td>XSL Transformations</td>
+    </tr>
+    <tr>
+      <td>Wednesday</td>
+      <td class="highlight-yellow">8:00 a.m.</td>
+      <td class="highlight-green">12:00 p.m.</td>
+      <td>XSL Formatting Objects</td>
+    </tr>
+  </tbody>
+</table>
+<head>
+  <title>Table 2</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+    }
+    h1 {
+      background-color: #d4ea82;
+      text-align: left;
+      color: white;
+      padding: 15px;
+      margin: 0;
+    }
+    .container {
+      padding: 20px;
+    }
+    .link-button {
+      display: inline-block;
+      margin: 10px;
+      padding: 15px 25px;
+      font-size: 18px;
+      color: white;
+      background-color: #ea82da;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+    .link-button:hover {
+      background-color: #b6ebf5;
+    }
+  </style>
+</head>
+
+</body>
+
+   
+<div class="container">
+  <a href="index.html" class="link-button">Homepage</a>
+  <a href="Table1.html" class="link-button">Table 1</a>
+  <a href="Table3.html" class="link-button">Table 3</a>
+</div>
+
+</body>
+</html>

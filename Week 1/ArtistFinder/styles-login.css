@@ -1,0 +1,99 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+  color: #292c33;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: #11A2F3;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.nav {
+  margin-top: 10px;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.join-section {
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.join-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-field {
+  margin: 10px 0;
+  padding: 10px;
+  width: 80%;
+  border: 1px solid #11A2F3;
+  border-radius: 5px;
+}
+
+.btn {
+  margin-top: 10px;  /* Add margin to separate from the previous field */
+  width: 80%;  /* Make the button full width */
+  background-color: #11A2F3;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0a82d6;
+}
+
+.footer {
+  background-color: #11A2F3;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
